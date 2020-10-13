@@ -2020,11 +2020,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #ffb400;
+  background-color: red;
   border-color: #ffb400; }
   .btn-primary:hover {
-    color: #212529;
-    background-color: #d99900;
+    color: red;
+    background-color: black;
     border-color: #cc9000; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 180, 0, 0.5);
@@ -7621,7 +7621,7 @@ h1, h2, h3, h4, h5,
   clear: both; }
 
 .reservation {
-  background: #ffb400; }
+  background: lightblue; }
   @media (min-width: 768px) {
     .reservation {
       margin-top: -145px; } }
