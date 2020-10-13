@@ -7454,8 +7454,10 @@ h1, h2, h3, h4, h5,
     z-index: 0;
     position: relative; }
     .owl-carousel.home-slider .slider-item {
-      background-size: cover;
+
+      background-size: 100% 100%;
       background-repeat: no-repeat;
+
       background-position: center center;
       height: calc(100vh - 117px);
       min-height: 700px;
@@ -7501,6 +7503,18 @@ h1, h2, h3, h4, h5,
             border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
             .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
               color: #fff; }
+              
+
+
+
+
+
+
+
+
+
+
+
     .owl-carousel.home-slider .owl-nav .owl-prev span,
     .owl-carousel.home-slider .owl-nav .owl-next span {
       color: #fff; }
@@ -8340,9 +8354,11 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: .1em; }
 
+
+
 .block-20 {
   overflow: hidden;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
   height: 250px;
