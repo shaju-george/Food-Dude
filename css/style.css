@@ -7653,6 +7653,13 @@ h1, h2, h3, h4, h5,
     -moz-appearance: none;
     appearance: none; }
 
+
+.makereservation .form-group .alert {
+  color: red;
+}
+
+
+
 .ftco-section-2 .section-2-blocks-wrapper .button {
   display: block;
   position: absolute;
@@ -8978,3 +8985,5 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+

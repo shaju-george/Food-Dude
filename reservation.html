@@ -57,7 +57,7 @@
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-10 col-sm-12 ftco-animate text-center">
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Reservation</span></p>
+              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Book</span></p>
               <h1 class="mb-3">Order your happiness</h1>
             </div>
           </div>
@@ -75,12 +75,12 @@
         <div class="row d-flex">
           <div class="col-md-4 ftco-animate img" style="background-image: url(images/bg_1.jpg);"></div>
           <div class="col-md-8 ftco-animate makereservation p-5 bg-light">
-            <form action="#">
+            <form action="index.html" onsubmit ="return myfun()">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Name<span> *</span></label>
-                    <p id="namep"></p>
+                    <p class="alert" id="namep"></p>
                     <input type="text" class="form-control" placeholder="Your Name" id="name">
                   </div>
                 </div>
@@ -93,6 +93,7 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Phone<span> *</span></label>
+                    <p class="alert" id="nump"></p>
                     <input id="num" type="text" class="form-control" placeholder="Phone">
                   </div>
                 </div>
@@ -100,8 +101,8 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Time</label>
-                    <p id="timep"></p>
+                    <label for="">Time<span> *</span></label>
+                    <p class="alert" id="timep"></p>
                     <input type="text" class="form-control" id="book_time" placeholder="Time">
                   </div>
                 </div>
@@ -142,7 +143,8 @@
                 </div>
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
-                    <input type="submit" value="Book now" class="btn btn-primary py-3 px-5" onclick="myfun()">
+                    <p class="alert" id="selectp"></p>
+                    <input type="submit" value="Book now" class="btn btn-primary py-3 px-5" >
 
 
                   </div>
